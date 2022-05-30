@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: rancher-http-nginx
+        test: aaabvbccc
     spec:
       containers:
       - image: nginx
