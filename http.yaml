@@ -14,7 +14,7 @@ spec:
         app: rancher-http-nginx
     spec:
       containers:
-      - image: nginx123
+      - image: nginx
         name: rancher-http-nginx
         ports:
         - containerPort: 80
