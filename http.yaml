@@ -13,9 +13,10 @@ spec:
       labels:
         app: rancher-http-nginx
         test: aaabvbccc
+        test2: abcc
     spec:
       containers:
-      - image: nginxx
+      - image: nginx
         name: rancher-http-nginx
         ports:
         - containerPort: 80
