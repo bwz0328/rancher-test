@@ -15,7 +15,7 @@ spec:
         test: aaabvbccc
     spec:
       containers:
-      - image: nginxa
+      - image: nginx
         name: rancher-http-nginx
         ports:
         - containerPort: 80
